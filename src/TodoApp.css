@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  font-family: 'Ubuntu', sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(247, 230, 233);
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h5 {
+  margin-bottom: 10px;
+}
+
+small {
+  font-size: 75%;
+  color: rgb(165, 165, 165);
+}
+
+hr {
+  border: 1px solid #F0F0F0;
+  margin: 25px 0;
+}
+
+ul > li {
+  min-width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li > div {
+  display: flex;
+  align-items: center;
+}
+
+li > div > input {
+  margin-right: 10px;
+}
+
+input::placeholder {
+  color: rgb(221, 219, 219);
+}
+
+button {
+  background-color: white;
+  color: rgb(165, 165, 165);
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.done {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: line-through;
+}
+
+.btn-add {
+  border: 1px solid rgb(204, 204, 204);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 80px;
+}
+
+.btn-remove {
+  border: 0;
+}
+
+.btn-remove:hover {
+  color: red;
+}
+
+.placeholder {
+  min-width: 400px;
+}
+
+.todo-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.todo-app h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.todo-app ul,
+.todo-app li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-app li { 
+  padding: 5px 0;
+}
+
+.main-container {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 4px 4px 6px 1px rgba(0, 0, 0, 0.2);
+}
+
+.add-todo-title {
+  margin-bottom: 20px;
+}
+
+.control {
+  display: inline-block;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: white;
+  background-clip: padding-box;
+  border: 1px solid #F0F0F0;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  width: 100%;
+}
